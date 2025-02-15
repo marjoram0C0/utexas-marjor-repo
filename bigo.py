@@ -129,8 +129,7 @@ def length_of_longest_substring_n(s):
             char_count[ord(s[j])] += 1
             if char_count[ord(s[j])] == 1:
                 current_max += 1
-                if max_substring < current_max:
-                    max_substring = current_max
+                max_substring = max(max_substring, current_max)
             else:
                 break
 
