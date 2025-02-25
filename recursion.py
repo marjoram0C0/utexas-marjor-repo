@@ -178,7 +178,7 @@ def split_array(nums):
         # path A: put the current num into sum a
         include_a = summation_path(i + 1, sum_a + nums[i], sum_b)
         # path B: put the current num into sum b
-        include_b = summation_path(i+1, sum_a, sum_b + nums[i])
+        include_b = summation_path(i + 1, sum_a, sum_b + nums[i])
 
         # at the end of a path, we return if the sums ended up equal.
         # if yes, return True (it will come back up the chain).
@@ -209,7 +209,7 @@ def split_odd_10(nums):
         # path A: put the current num into sum a (mod 10)
         include_a = summation_path(i + 1, sum_a + nums[i], sum_b)
         # path B: put the current num into sum b (mod 2)
-        include_b = summation_path(i+1, sum_a, sum_b + nums[i])
+        include_b = summation_path(i + 1, sum_a, sum_b + nums[i])
 
         # at the end of a path, we return if the sums ended up as desired.
         # if yes, return True (it will come back up the chain).
@@ -249,13 +249,11 @@ def split_53(nums):
         if nums[i] % 3 == 0:
             include_b = False
         else:
-            include_b = summation_path(i+1, sum_a, sum_b + nums[i])
+            include_b = summation_path(i + 1, sum_a, sum_b + nums[i])
 
         # at the end of a path, we return if the sums ended up equal.
         # if yes, return True (it will come back up the chain).
         # if no, return False
         return include_a or include_b
 
-    if len(nums) == 0: # a fix for what may be a typo in the test list
-        return False
     return summation_path(0, 0, 0)
