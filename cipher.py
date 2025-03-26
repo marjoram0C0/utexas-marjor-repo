@@ -168,6 +168,7 @@ def vigenere_encode(string, phrase):
         Vigenere algorithm
     """
     string = filter_string(string)
+    phrase = filter_string(phrase)
     loop_num = len(phrase)
     output = []
     for i, c in enumerate(string):
@@ -184,6 +185,7 @@ def vigenere_decode(string, phrase):
         Vigenere algorithm
     """
     string = filter_string(string)
+    phrase = filter_string(phrase)
     loop_num = len(phrase)
     output = []
     for i, c in enumerate(string):
