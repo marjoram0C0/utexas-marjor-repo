@@ -1,2 +1,19 @@
-(1, 1) + (-1, 0)
-(-9, 6) + (-12, 5) + (-7, 4) + (-5, 3) + (-2, 2) + (-1, 1)
+Rail Fence Cipher
+
+Plain Text: railfencezigzag
+Key: 7
+Encoded Text: rzagaiiglzfeecn
+
+Encoded Text: rzagaiiglzfeecn
+Enter Key: 7
+Decoded Text: railfencezigzag
+
+Vigenere Cipher
+
+Plain Text: loremipsumdolor
+Pass Phrase: zipcode
+Encoded Text: kwggaltrcbfcosq
+
+Encoded Text: kwggaltrcbfcosq
+Pass Phrase: zipcode
+Decoded Text: loremipsumdolor

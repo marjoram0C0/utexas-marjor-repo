@@ -1,2 +1,19 @@
-(100, 10) + (200, 8) + (-9, 6) + (-2, 5) + (-8, 3) + (-36, 2) + (36, 1) + (-1, 0)
-(-3600, 12) + (3600, 11) + (-7200, 10) + (7200, 9) + (324, 8) + (-252, 7) + (-72, 6) + (288, 5) + (-288, 4) + (36, 2) + (-36, 1)
+Rail Fence Cipher
+
+Plain Text: helloworld
+Key: 5
+Encoded Text: hlerdlolwo
+
+Encoded Text: hlerdlolwo
+Enter Key: 5
+Decoded Text: helloworld
+
+Vigenere Cipher
+
+Plain Text: helloworld
+Pass Phrase: goat
+Encoded Text: nsleukokrr
+
+Encoded Text: nsleukokrr
+Pass Phrase: goat
+Decoded Text: helloworld

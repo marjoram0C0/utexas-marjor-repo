@@ -1,2 +1,19 @@
-(3, 9) + (69, 3) + (6, -2)
-(-36, 156) + (-42, 87) + (414, 81) + (-36, 76) + (-10, 18) + (345, 12) + (-12, 7) + (414, 1)
+Rail Fence Cipher
+
+Plain Text: anexcessivelylongstringthatisverylongtomakesurethatyourcodedoesntbreakwhenthestringisreallllllllllllylong
+Key: 30
+Encoded Text: aenddeooxcecrseunsotsybitrvaeehaltkyewglrhnoueonsnlgetyskhltaelrmsliotlntrlggiltnnlhoglaliltyslirrlseelva
+
+Encoded Text: tsigeoigbltwenswetndcdnaiiyhnito
+Enter Key: 2
+Decoded Text: testingdecodingabilitywhennistwo
+
+Vigenere Cipher
+
+Plain Text: Okay But What About Capitalization AND Spaces
+Pass Phrase: idontknowaboutthisone
+Encoded Text: wnoluegkdauovhnaksdvxiowmtdvcjaormitjmk
+
+Encoded Text: vgzshesgdjdxvdqditrsnmdkdssdq
+Pass Phrase: z
+Decoded Text: whatifthekeywerejustoneletter

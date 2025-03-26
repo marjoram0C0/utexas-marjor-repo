@@ -1,2 +1,19 @@
-(10, 10) + (9, 9) + (8, 8) + (7, 7) + (6, 6) + (5, 5) + (4, 4) + (3, 3) + (-10, 0)
-(-20, 12) + (-28, 11) + (-125, 10) + (-112, 9) + (-99, 8) + (-86, 7) + (-73, 6) + (-60, 5) + (-47, 4) + (-34, 3) + (-21, 2) + (-10, 1)
+Rail Fence Cipher
+
+Plain Text: anexcessivelylongstringthatisverylongtomakesurethatyourcodedoesntbreakwhenthestringisreallllllllllllylong
+Key: 30
+Encoded Text: aenddeooxcecrseunsotsybitrvaeehaltkyewglrhnoueonsnlgetyskhltaelrmsliotlntrlggiltnnlhoglaliltyslirrlseelva
+
+Encoded Text: tsigeoigbltwenswetndcdnaiiyhnito
+Enter Key: 2
+Decoded Text: testingdecodingabilitywhennistwo
+
+Vigenere Cipher
+
+Plain Text: checking if your code can handle spaces
+Pass Phrase: hopefullyitcan
+Encoded Text: jvtgpcyrgnrquejcsihuysyvwnefworix
+
+Encoded Text: gfmrhaprx
+Pass Phrase: oranother
+Decoded Text: something

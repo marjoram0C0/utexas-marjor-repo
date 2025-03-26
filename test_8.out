@@ -1,2 +1,19 @@
-(2, 2)
-(1, 4) + (-4, 0)
+Rail Fence Cipher
+
+Plain Text: youregreatdoing
+Key: 5
+Encoded Text: yaoeturdgrgonei
+
+Encoded Text: strictlylessthan
+Enter Key: 5
+Decoded Text: srlsasyitcltnhet
+
+Vigenere Cipher
+
+Plain Text: There's just three more test cases! Hopefully you get all 11 correct
+Pass Phrase: dodge
+Encoded Text: wvhxivxxyxwvukipcukxhgwievsvnsssiapombuyjswgpoqrxvhqw
+
+Encoded Text: aapjpsqeagsteoumgkexjwyld
+Pass Phrase: thiscombinesalotoftestcases
+Decoded Text: hthrneedstobedgtsfltrdwll

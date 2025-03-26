@@ -1,2 +1,19 @@
-(7, 8) + (8, 7) + (27, 0)
-(189, 8) + (216, 7)
+Rail Fence Cipher
+
+Plain Text: helloworld
+Key: 3
+Encoded Text: holelwrdlo
+
+Encoded Text: holelwrdlo
+Enter Key: 3
+Decoded Text: helloworld
+
+Vigenere Cipher
+
+Plain Text: helloworld
+Pass Phrase: seal
+Encoded Text: zilwgaocdh
+
+Encoded Text: zilwgaocdh
+Pass Phrase: seal
+Decoded Text: helloworld
