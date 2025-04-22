@@ -402,7 +402,8 @@ class Graph:
                 if self.vertices[i] in visited:
                     return True
                 # otherwise continue looking through neighboring branches
-                return cycle_help(self.vertices[i], visited)
+                if cycle_help(self.vertices[i], visited):
+                    return True
             # once looking through every branch, remove the current vertex from visited,
             # in case it is an end point for multiple branches
             visited.remove(current)
